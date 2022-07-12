@@ -1,0 +1,10 @@
+SELECT * FROM `obat`WHERE harga_obat >= 1000;
+SELECT * FROM `obat`WHERE harga_obat > 1000;
+SELECT * FROM `obat`
+SELECT * FROM `obat` WHERE harga_obat < 10000;
+SELECT * FROM `obat` WHERE harga_obat <= 10000;
+SELECT supplier FROM `obat`;
+SELECT * FROM `obat` WHERE nama_obat LIKE '%obh%';
+SELECT * FROM `obat` ORDER BY harga_obat DESC;
+SELECT * FROM `obat` ORDER BY harga_obat ASC;
+SELECT SUM(harga_obat) AS "obat" FROM obat;
